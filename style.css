@@ -15,7 +15,7 @@
 
 navbar {
     position: top, fixed;
-    */ z-index: 0;
+    z-index: 0;
     box-sizing: border-box;
     text-indent: 80px;
     flex-direction: row;
@@ -33,6 +33,7 @@ navbar {
     transition-duration: 0.5s;
     height:100vh;
     background-size: cover;
+    width:100%;
 
 }
 #slide1{text-align: center;
@@ -43,12 +44,10 @@ navbar {
 margin-top: 5vh;}
 
 
-html {
-    scroll-behavior: smooth;
-  }
 
-/* @media screen and (max-width: 992px) { */
 
-/* .column {
+ @media screen and (max-width: 992px) { 
+
+.column {
         flex: 50%;
-    }  */
+    }  
