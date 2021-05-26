@@ -16,3 +16,5 @@ else if (hrs >= 17 && hrs < 24) {
 else if (hrs >= 0 && hrs < 3) {
         document.getElementById("greetings").innerHTML = "Good Night";
     }
+
+    

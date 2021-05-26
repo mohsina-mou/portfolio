@@ -20,8 +20,9 @@
 
 </head>
 
-<body>
 
+
+<body>    
 
     <div class="container-fluid">
         <nav  class="navbar navbar-expand-lg navbar-light fixed-top"  style="background-color: rgb(217, 202, 243);">
@@ -37,7 +38,7 @@
                     <div class="collapse navbar-collapse pull-right" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
                             <li class="nav-item">
-                                <a class="nav-link active" style="color: rgb(164, 117, 207);" aria-current="page" href="#welcome-section"><b>Home</b></a>
+                                <a class="nav-link active" style="color: rgb(164, 117, 207);" aria-current="page" href="#welcome"><b>Home</b></a>
                             </li>
 
                             <li class="nav-item">
@@ -76,10 +77,93 @@
             </div>
         
         </nav>
+        <div id="welcome">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-interval="1000">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner ">
+                    <div class="carousel-item active"
+                        style="background-image: url(https://i.postimg.cc/Nj5qVFYs/frame-made-fresh-lavender-flowers-light-purple-background-92397-2425.jpg);"
+                        class="d-block w-100" alt="...">
+                        <div id="slide1">
+                            <div style="font-size: 200px;color:rgb(148, 109, 190)"><span id="greetings"></span> </div>
+                            <div style="font-size: 50px; color: rgb(80, 75, 156);"> Welcome to my Portfolio</div>
+                        </div>
+                    </div>
+                    <div class="carousel-item "
+                        style="background-image: url(https://i.postimg.cc/Nj5qVFYs/frame-made-fresh-lavender-flowers-light-purple-background-92397-2425.jpg)"
+                        class="d-block w-100" alt="...">
+                        <div id="slide2">
+                            <p style="font-size: 60px; color: rgb(80, 75, 156);margin:auto 900px auto 900px"> About Me <br></p>
+                            <div style="font-size: 30px; color: rgb(80, 75, 156);margin:auto 900px auto 900px;"> <br>Hi, I'm Mohsina. I am a
+                                biotechnologist. Currently i have grown some interest on programming and learning some new languages. I have
+                                already completed some projects in html,css,js. Now, I'am too excited to comprehend more about these tools.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item "
+                        style="background-image: url(https://i.postimg.cc/Nj5qVFYs/frame-made-fresh-lavender-flowers-light-purple-background-92397-2425.jpg)"
+                        class="d-block w-100" alt="...">
+                        <div id="slide3">
+                            <div style="font-size: 50px; color: rgb(80, 75, 156)"></div>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
 
-        <div id="welcome-section">
+        </div>
+
+        <!-- <div id="welcome-section">
             <div style="font-size: 200px;color:rgb(148, 109, 190)"><span id="greetings"></span> </div>
             <div style="font-size: 50px; color: rgb(80, 75, 156);"> Welcome to my Portfolio</div>
+        </div> -->
+        <br>
+        <div id="contact" class="container-fluid">
+            <div style="font-size: 50px; background-color: rgb(217, 202, 243);">About Me</div><br>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card" style="width: 20srem; height: 7rem; background-color:rgb(232, 225, 245);">
+                        <!-- <img src=""
+                                    class="card-img-top" alt="..."> -->
+                        <div class="card-body">
+                            <h5 class="card-title"> Gmail </h5>
+                            <p class="card-text">mou.mohsinaakter@gmail.com</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 20srem; height: 7rem; background-color:rgb(232, 225, 245)">
+                        <!-- <img src=""
+                                        class="card-img-top" alt="..."> -->
+                        <div class="card-body">
+                            <h5 class="card-title"> Github </h5>
+                            <p class="card-text"><a target="_blank" href="https://github.com/mohsina-mou"
+                                    class="btn btn-light">Visit</a></p>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
         <br>
 
@@ -323,36 +407,7 @@
         </div>
 
         <br>
-        <div id="contact" class="container-fluid">
-            <div style="font-size: 50px; background-color: rgb(217, 202, 243);">Contact</div><br>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="card" style="width: 20srem; height: 7rem; background-color:rgb(232, 225, 245);">
-                        <!-- <img src=""
-                                    class="card-img-top" alt="..."> -->
-                        <div class="card-body">
-                            <h5 class="card-title"> Gmail </h5>
-                            <p class="card-text">mou.mohsinaakter@gmail.com</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card" style="width: 20srem; height: 7rem; background-color:rgb(232, 225, 245)">
-                        <!-- <img src=""
-                                        class="card-img-top" alt="..."> -->
-                        <div class="card-body">
-                            <h5 class="card-title"> Github </h5>
-                            <p class="card-text"><a target="_blank" href="https://github.com/mohsina-mou"
-                                    class="btn btn-light">Visit</a></p>
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
+        
 
 
 
