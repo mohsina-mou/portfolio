@@ -33,8 +33,7 @@ navbar {
     transition-duration: 0.5s;
     height:100vh;
     background-size: cover;
-    width:100%;
-
+    
 }
 #slide1{text-align: center;
     margin-top: 35vh;}
